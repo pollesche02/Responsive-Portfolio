@@ -1,0 +1,144 @@
+/**
+ First External CSS Stylesheet
+ **/
+
+ body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Sigmar One', cursive;
+    font-size: 18px;
+    line-height: 150%;
+    color: #444444;
+    background: #ffffff;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 150px;
+    margin-left: 80px;
+}
+
+.form {
+   box-sizing: border-box;
+}
+
+.footer {
+   left: 0;
+   bottom: 0;
+   top: 8px solid #d21034;
+   width: 100%;
+   background-color: #4aaaa5;
+   color: white;
+   text-align: center;
+}
+
+.Name { 
+   color: #343a40;
+  
+}
+
+#header {
+   background-color:#4aaaa5;
+   color:white;
+}
+#links {
+   float:right;
+}
+
+.Message { 
+   color: #343a40;
+  
+}
+
+header {
+    background: #4aaaa5;
+    text-align: right;
+}
+
+h1 {
+   padding: 20px 0;
+   margin: 0;
+   margin-bottom: 20px;
+   font-size: 28px;
+   color: #eee;
+   text-align: center;
+}
+
+h2 {
+   font-size: 24px;
+   color: #d21034;
+}
+
+a {
+   color: #d21034;
+}
+
+.container {
+   width: 1024px;
+   margin: 0 auto;
+}
+
+#main-bio,
+#contact-info
+e {
+   float: left;
+}
+
+#main-bio {
+   width: 70;
+}
+
+#contact-info {
+   width: 30;
+}
+
+#bio-image {
+   width: 200px;
+   height: 200px;
+   margin-right: 20px;
+}
+
+.row {
+   display: flex;
+   flex-wrap: wrap;
+   padding: 0 4px;
+ }
+ 
+ /* Create two equal columns that sits next to each other */
+ .column {
+   flex: 50%;
+   padding: 0 4px;
+ }
+ 
+ .column img {
+   margin-top: 8px;
+   vertical-align: middle;
+ }
+
+ @media screen and (max-width: 980px) {
+    body {
+       background-color: #ffffff;
+    }
+
+    .wrapper {
+       width: auto;
+    }
+ }
+
+ @media screen and (max-width: 768px) {
+   body {
+      background-color: #ffffff;
+   }
+
+   .wrapper {
+      width: auto;
+   }
+}
+
+@media screen and (max-width: 640px) {
+   body {
+      background-color: #ffffff;
+   }
+
+   .wrapper {
+      width: auto;
+   }
+}
